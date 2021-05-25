@@ -22,7 +22,6 @@ class open_excel_method:
 
     def is_run(self):
         rows = self.re.get_hang()
-        row = self.fz.get_calse_list()
         for i in range(1, rows):
             url = self.re.get_call_value(i, get_url())
             method = self.re.get_call_value(i, get_method())

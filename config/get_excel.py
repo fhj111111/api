@@ -9,7 +9,7 @@ class ReadExcel:
             self.file_name = file_name
             self.sheet_id = sheet_id
         else:
-            self.file_name = '../data/case.xlsx'
+            self.file_name = './data/case.xlsx'
             self.sheet_id = 0
         self.data = self.open_excel()
 
